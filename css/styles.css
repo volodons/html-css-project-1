@@ -1,0 +1,165 @@
+img {
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+figure,
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    background-color: rgb(222, 222, 222);
+    flex-direction: row;
+    text-align: center;
+}
+
+figure {
+    flex-direction: column;
+    width: auto;
+}
+
+figcaption {
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.main-content {
+    background-color: rgb(238, 238, 238);
+    margin: 1% 10% 1% 10%;
+}
+
+.head,
+.description,
+.biography,
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+    margin: 1% 2.75% 1% 2.75%;
+}
+
+figure,
+.description {
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.biography,
+.sub {
+    font-family: 'Roboto-Regular';
+}
+
+.biography {
+    align-items: flex-start;
+    margin: 0 2% 0 2%;
+}
+
+.sub {
+    padding-bottom: 2.5%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("assets/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("assets/Roboto-Regular.ttf") format("truetype");
+}
+
+@media screen and (max-width: 1920px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub {
+        text-align: center;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        margin: 1% 2.75% 1% 2.75%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub {
+        text-align: center;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        margin: 1% 2.75% 1% 2.75%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub {
+        text-align: center;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        margin: 1% 2.75% 1% 2.75%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub {
+        text-align: center;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        margin: 1% 2.75% 1% 2.75%;
+    }
+
+}
